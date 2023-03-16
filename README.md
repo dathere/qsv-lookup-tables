@@ -91,7 +91,7 @@ amount_table_with_salestax[_IDX] = amount_with_salestax;
 running_total = running_total + Amount;
 running_total_after_tax = running_total_after_tax + amount_with_salestax;
 
--- we round using Lua's powerful String library - https://www.lua.org/manual/5.4/manual.html#6.4
+-- we round using Lua's powerful String library - https://luau-lang.org/library#string-library
 running_total = string.format("%.2f", running_total);
 local rounded_running_total_after_tax = string.format("%.2f", running_total_after_tax);
 
@@ -104,8 +104,8 @@ END {
     -- and this is the END block, which is executed ONCE at the end
 
     -- first we use Lua's table library to unpack the contents of the amount_table into a list
-    -- https://www.lua.org/manual/5.4/manual.html#6.6
-    -- and then we use the builtin math library - https://www.lua.org/manual/5.4/manual.html#6.7
+    -- https://luau-lang.org/library#table-library
+    -- and then we use the builtin math library - https://luau-lang.org/library#math-library
     -- to get the min and max values
     local min_amount: number = math.min(table.unpack(amount_table_with_salestax));
     local max_amount: number = math.max(table.unpack(amount_table_with_salestax));
