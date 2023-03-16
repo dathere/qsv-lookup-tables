@@ -31,6 +31,10 @@ Order ID,Amount,State
 20230301005,33.70,DE
 ```
 
+### [us-states-example.csv](https://github.com/dathere/qsv-lookup-tables/blob/main/lookup-tables/us-states-example.csv) lookup table
+
+https://github.com/dathere/qsv-lookup-tables/blob/1d5e43d831c645ccaed07d3ce913f0f48b7a032c/lookup-tables/us-states-example.csv#L1-L6
+
 ### testlookup.luau
 
 ```lua
