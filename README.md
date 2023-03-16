@@ -145,7 +145,7 @@ And the logfile should look like this:
 
 ### [qsv_rCURRENT.log](examples/readme-example/qsv_rCURRENT.log)
 
-```log
+```SystemVerilog
 [2023-03-16 10:09:07.521653 +00:00] INFO [qsv::util] src/util.rs:617: START: luau map Rate (%),Amount with Tax,Running Total - Before Tax,Running Total - After Tax -x file:testlookup.luau testme.csv
 [2023-03-16 10:09:07.539190 +00:00] INFO [qsv::cmd::luau] src/cmd/luau.rs:240: TIMEOUT: 15 secs
 [2023-03-16 10:09:07.540808 +00:00] DEBUG [qsv::cmd::luau] src/cmd/luau.rs:276: begin_block_replace: "BEGIN {\n\n    running_total = 0;\n    running_total_after_tax = 0;\n    amount_table = {};\n    amount_table_with_salestax = {};\n\n    us_states_lookup_headers_table = qsv_register_lookup(\"us_states\", \"dathere://us-states-example.csv\")\n\n    qsv_log(\"debug\", \"us_states_lookup_headers:\", us_states_lookup_headers_table)\n    qsv_log(\"info\", \"us_states lookup table:\", us_states)\n    qsv_log(\"info\", `NY Capital: {us_states[\"NY\"][\"Capital\"]} can be also {us_states.NY.Capital} or {us_states[\"NY\"].Capital}`)\n\n    function sum(numbers_table: table): number\n        local sum: number = 0;\n        for _, v in ipairs(numbers_table) do\n            sum = sum + v;\n        end\n        return sum;\n    end\n    \n}!"
