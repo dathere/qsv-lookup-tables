@@ -122,7 +122,7 @@ END {
 }!
 ```
 
-And here's the output after running:
+To run the example, we use the following command:
 
 ```bash
 export QSV_LOG_LEVEL=debug
@@ -131,7 +131,10 @@ qsv luau map "Rate (%)","Amount with Tax","Running Total - Before Tax","Running 
     | qsv table
 ```
 
-```csv
+And here's the output after running. The first line is the output of the `return` statement in the END block sent to stderr.
+The rest is the output sent to stdout and piped to `qsv table` to format it as a table.
+
+```bash
 Min/Max: 12.9/76.5 Grand total of 5 rows: 146.20/153.15
 Order_ID     Amount  State  Rate (%)  Amount with Tax  Running Total - Before Tax  Running Total - After Tax
 20230301001  13.50   NJ     7         14.445           13.50                       14.45
