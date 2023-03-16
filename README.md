@@ -10,7 +10,7 @@ To use a lookup table, simply use the name of the csv you want to use with the [
 us_states_lookup_headers = qsv_register_lookup("us_states", "dathere://us-states-example.csv")
 ```
 
-The first argument is the name of the lookup table to download the data to. The second argument is the dathere URL of the CSV file in the [`lookup-tables`](..\lookup-tables) directory.
+The first argument is the name of the lookup table to download the data to. The second argument is the dathere URL of the CSV file in the [`lookup-tables`](https://github.com/dathere/qsv-lookup-tables/tree/main/lookup-tables) directory.
 
 When the lookup table is downloaded sucessfully, a Luau table is created with the same name as the first argument ("us_states" in this case). The table is a two-dimensional table, where the first dimension is the value of the first column of the CSV file (the lookup key), and the second dimension are the rest of the columns with their data.
 
