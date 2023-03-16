@@ -1,9 +1,11 @@
 # qsv-lookup-tables
+
 A repository of common lookup tables that can be used with [qsv](https://github.com/jqnatividad/qsv#qsv-ultra-fast-csv-data-wrangling-toolkit)'s [`luau`](https://github.com/jqnatividad/qsv#luau_deeplink) command's `qsv_register_lookup` helper function.
 
 Please feel free to submit a pull request to add more lookup tables.
 
 ## Usage
+
 To use a lookup table, simply use the name of the csv you want to use with the [`qsv_register_lookup`](https://github.com/jqnatividad/qsv/blob/b8fded6b41c4b31f0f257a0fa1513a921e035e7a/src/cmd/luau.rs#L1349-L1368) using the "dathere://" scheme.
 
 ```lua
@@ -16,7 +18,7 @@ When the lookup table is downloaded sucessfully, a Luau table is created with th
 
 Further, qsv_register_lookup returns the headers of the CSV file as a Luau table ("us_states_lookup_headers"), which can be used to access the data in the lookup table.
 
-### Example:
+### Example
 
 We have a small table with some transactions for which we want to get the total amount with the corresponding state sales tax.
 
