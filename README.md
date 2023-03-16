@@ -1,10 +1,10 @@
 # qsv-lookup-tables
-A repository of common lookup tables that can be used with qsv's `luau` command's `qsv_register_lookup` helper function.
+A repository of common lookup tables that can be used with [qsv](https://github.com/jqnatividad/qsv)'s [`luau`](https://github.com/jqnatividad/qsv#luau_deeplink) command's `qsv_register_lookup` helper function.
 
 Please feel free to submit a pull request to add more lookup tables.
 
 ## Usage
-To use a lookup table, simply use the name of the csv you want to use with the `qsv_register_lookup` using the "dathere://" scheme.
+To use a lookup table, simply use the name of the csv you want to use with the [`qsv_register_lookup`](https://github.com/jqnatividad/qsv/blob/b8fded6b41c4b31f0f257a0fa1513a921e035e7a/src/cmd/luau.rs#L1349-L1368) using the "dathere://" scheme.
 
 ```lua
 us_states_lookup_headers = qsv_register_lookup("us_states", "dathere://us-states-example.csv")
