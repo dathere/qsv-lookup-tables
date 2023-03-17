@@ -23,8 +23,6 @@ Further, qsv_register_lookup returns the header names of the CSV file as another
 We have a small table with some transactions for which we want to get the total amount with the corresponding state sales tax.   
 (source code: [testlookup.luau](examples/readme-example/testlookup.luau), data: [data.csv](examples/readme-example/data.csv))
 
-```bash
-
 ### data.csv
 
 ```csv
