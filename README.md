@@ -38,7 +38,18 @@ Order ID,Amount,State
 
 ### [us-states-example.csv](https://github.com/dathere/qsv-lookup-tables/blob/main/lookup-tables/us-states-example.csv) lookup table
 
-https://github.com/dathere/qsv-lookup-tables/blob/1d5e43d831c645ccaed07d3ce913f0f48b7a032c/lookup-tables/us-states-example.csv#L1-L6
+```csv
+ Abbreviation,Name,Capital,Population (2019),area (square miles),Sales Tax (2023)
+ AL,Alabama,Montgomery ,"4,903,185","52,420",4
+ AK,Alaska,Juneau,"731,545","665,384",0
+ AZ,Arizona,Phoenix,"7,278,717","113,990",5.6
+ AR,Arkansas,Little Rock,"3,017,804","53,179",6.5
+ CA,California,Sacramento,"39,512,223","163,695",7.5
+ ...
+ WV,West Virginia,Charleston,"1,792,147,24,230",6
+ WI,Wisconsin,Madison,"5,822,434,65,496",5
+ WY,Wyoming,Cheyenne,"578,759,97,813",4
+```
 
 ### testlookup.luau
 
@@ -122,7 +133,7 @@ END {
 }!
 ```
 
-To run the example, we use the following command:
+To run the example, issue the following commands:
 
 ```bash
 export QSV_LOG_LEVEL=debug
