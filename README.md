@@ -23,7 +23,7 @@ Further, qsv_register_lookup returns the header names of the CSV file as another
 We have a small table with some transactions for which we want to get the total amount with the corresponding state sales tax.   
 (source code: [testlookup.luau](examples/readme-example/testlookup.luau), data: [data.csv](examples/readme-example/data.csv))
 
-### data.csv
+#### data.csv
 
 ```csv
 Order ID,Amount,State
@@ -34,7 +34,7 @@ Order ID,Amount,State
 20230301005,33.70,DE
 ```
 
-### [us-states-example.csv](https://github.com/dathere/qsv-lookup-tables/blob/main/lookup-tables/us-states-example.csv) lookup table
+#### [us-states-example.csv](https://github.com/dathere/qsv-lookup-tables/blob/main/lookup-tables/us-states-example.csv) lookup table
 
 ```csv
  Abbreviation,Name,Capital,Population (2019),area (square miles),Sales Tax (2023)
@@ -49,7 +49,7 @@ Order ID,Amount,State
  WY,Wyoming,Cheyenne,"578,759,97,813",4
 ```
 
-### testlookup.luau
+#### testlookup.luau
 
 ```lua
 BEGIN {
@@ -155,7 +155,7 @@ Order_ID     Amount  State  Rate (%)  Amount with Tax  Running Total - Before Ta
 
 And the logfile should look like this:
 
-### [qsv_rCURRENT.log](examples/readme-example/qsv_rCURRENT.log)
+#### [qsv_rCURRENT.log](examples/readme-example/qsv_rCURRENT.log)
 
 ```SystemVerilog
 [2023-03-16 10:09:07.521653 +00:00] INFO [qsv::util] src/util.rs:617: START: luau map Rate (%),Amount with Tax,Running Total - Before Tax,Running Total - After Tax -x file:testlookup.luau testme.csv
