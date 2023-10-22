@@ -136,8 +136,7 @@ To run the example, issue the following commands:
 ```bash
 export QSV_LOG_LEVEL=debug
 qsv luau map "Rate (%)","Amount with Tax","Running Total - Before Tax","Running Total - After Tax" \
-    -x file:testlookup.luau data.csv \
-    | qsv table
+    file:testlookup.luau data.csv | qsv table
 ```
 
 And here's the output after running. The first line is the output of the `return` statement in the END block sent to stderr.
