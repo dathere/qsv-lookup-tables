@@ -62,14 +62,17 @@ BEGIN {
 
     -- we use the "dathere://" scheme to load "us-states-example.csv" from the
     -- https://github.com/dathere/qsv-lookup-tables repository
-    us_states_lookup_headers_table = qsv_register_lookup("us_states", "dathere://us-states-example.csv")
+    -- 6000 is the cache TTL in seconds (10 minutes)
+    us_states_lookup_headers_table = qsv_register_lookup("us_states",
+       "dathere://us-states-example.csv", 6000)
 
     -- note how we use the qsv_log function to log to the qsv log file
     -- which you can enable by setting the QSV_LOG_LEVEL environment variable to "debug"
     -- e.g. `export QSV_LOG_LEVEL=debug`
     qsv_log("debug", "us_states_lookup_headers:", us_states_lookup_headers_table)
     qsv_log("info", "us_states lookup table:", us_states)
-    qsv_log("info", `NY Capital: {us_states["NY"]["Capital"]} can be also {us_states.NY.Capital} or {us_states["NY"].Capital}`)
+    qsv_log("info", 
+      `NY Capital: {us_states["NY"]["Capital"]} can be also {us_states.NY.Capital} or {us_states["NY"].Capital}`)
 
     -- a simple function to sum a table of numbers
     function sum(numbers_table: table): number

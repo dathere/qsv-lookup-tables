@@ -8,7 +8,7 @@ BEGIN {
 
     -- we use the "dathere://" scheme to load "us-states-example.csv" from the
     -- https://github.com/dathere/qsv-lookup-tables repository
-    -- the 6000 is the cache TTL in seconds (10 minutes)
+    -- 6000 is the cache TTL in seconds (10 minutes)
     us_states_lookup_headers_table = qsv_register_lookup("us_states",
        "dathere://us-states-example.csv", 6000)
 
