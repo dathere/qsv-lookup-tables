@@ -1,0 +1,73 @@
+community_board,boro_name,board_number,neighborhoods,address
+01 BRONX,Bronx,01,"Mott Haven, Port Morris, Melrose","3024 Third Avenue
+Bronx, NY 10455"
+02 BRONX,Bronx,02,"Hunts Point, Longwood, Morrisania","1029 E. 163rd Street, Suite 202,Bronx, NY 10459"
+03 BRONX,Bronx,03,"Crotona Park, Claremont Village, Concourse Village, Woodstock, Morrisania","1426 Boston Road,Bronx, NY 10456"
+04 BRONX,Bronx,04,"Highbridge, Concourse, Mount Eden, Concourse Village","1650 Selwyn Avenue, #11A,Bronx, NY 10457"
+05 BRONX,Bronx,05,"Fordham, University Heights, Morris Heights, Bathgate, Mount Hope","BCC Campus, McCracken Hall, Room 12/13,W. 181st Street at Dr. Martin Luther King, Jr. Blvd.,Bronx, NY 10453"
+06 BRONX,Bronx,06,"Belmont, Bathgate, West Farms, East Tremont, Bronx Park South","1932 Arthur Avenue, Rm. 709,Bronx, NY 10457"
+07 BRONX,Bronx,07,"Norwood, University Heights, Jerome Park, Bedford Park, Fordham, Kingsbridge Heights","229-A East 204th Street,Bronx, NY 10458"
+08 BRONX,Bronx,08,"Fieldston, Kingsbridge, Kingsbridge Heights, Marble Hill, Riverdale, Spuyten Duyvil, Van Cortlandt Village","5676 Riverdale Avenue,Bronx, NY 10471"
+09 BRONX,Bronx,09,"Parkchester, Unionport, Soundview, Castle Hill, Bruckner, Harding Park, Bronx River and Clason Point","1967 Turnbull Avenue, Rm. 7,Bronx, NY 10473"
+10 BRONX,Bronx,10,"Co-op City, City Island, Spencer Estates, Throggs Neck, Country Club, Zerega, Westchester Square, Pelham Bay, Eastchester Bay, Schuylerville, Edgewater, Locust Point, Silver Beach","3165 East Tremont Avenue,Bronx, NY 10461"
+11 BRONX,Bronx,11,"Allerton, Bronx Park East, Eastchester Gardens, Indian Village, Morris Park, Olinville, Parkside, Pelham Gardens, Pelham Parkway, Van Nest, Westchester Heights","1741 Colden Avenue,Bronx, NY 10462"
+12 BRONX,Bronx,12,"Edenwald, Wakefield, Williamsbridge, Woodlawn, Fish Bay, Eastchester, Olinville, Baychester","4101 White Plains Road,Bronx, NY 10466"
+27 BRONX,Bronx,27,Bronx Park,
+28 BRONX,Bronx,28,Pelham Bay Park,
+26 BRONX,Bronx,26,Van Cortlandt Park,
+01 BROOKLYN,Brooklyn,01,"Flushing Avenue, Williamsburg, Greenpoint, Northside, Southside","435 Graham Avenue,Brooklyn, NY 11211"
+02 BROOKLYN,Brooklyn,02,"Brooklyn Heights, Fulton Mall, Boerum Hill, Fort Greene, Brooklyn Navy Yard, Fulton Ferry, Clinton Hill","350 Jay Street, 8th Floor,Brooklyn, NY 11201"
+03 BROOKLYN,Brooklyn,03,"Bedford-Stuyvesant, Stuyvesant Heights, Ocean Hill","1360 Fulton Street,Brooklyn, NY 11216"
+04 BROOKLYN,Brooklyn,04,Bushwick,"1420 Bushwick Avenue, Suite 370,Brooklyn, NY 11207-1422"
+05 BROOKLYN,Brooklyn,05,"East New York, Cypress Hills, Highland Park, New Lots, City Line, Starrett City, Ridgewood","127 Pennsylvania Avenue,Brooklyn, NY 11207"
+06 BROOKLYN,Brooklyn,06,"Red Hook, Carroll Gardens, Park Slope, Gowanus, Cobble Hill","250 Baltic Street,Brooklyn, NY 11201"
+07 BROOKLYN,Brooklyn,07,Sunset Park and Windsor Terrace,"4201 4th Avenue,Brooklyn, NY 11232"
+08 BROOKLYN,Brooklyn,08,"Crown Heights, Prospect Heights, Weeksville","1291 St. Marks Avenue,Brooklyn, NY 11213"
+09 BROOKLYN,Brooklyn,09,"Crown Heights, Prospect Lefferts Gardens, Wingate","890 Nostrand Avenue,Brooklyn, NY 11225"
+10 BROOKLYN,Brooklyn,10,"Bay Ridge, Dyker Heights, Fort Hamilton","8119 5th Avenue,Brooklyn, New York 11209"
+11 BROOKLYN,Brooklyn,11,"Bath Beach, Gravesend, Mapleton, Bensonhurst","2214 Bath Avenue,Brooklyn, NY 11214"
+12 BROOKLYN,Brooklyn,12,"Boro Park, Kensington, Ocean Parkway, Midwood","5910 13th Avenue,Brooklyn, NY 11219"
+13 BROOKLYN,Brooklyn,13,"Coney Island, Brighton Beach, Bensonhurst, Gravesend, Seagate","1201 Surf Avenue, 3rd Floor,Brooklyn, NY 11224"
+14 BROOKLYN,Brooklyn,14,"Flatbush, Midwood, Kensington, Ocean Parkway","810 East 16th Street,Brooklyn, NY 11230-3010"
+15 BROOKLYN,Brooklyn,15,"Sheepshead Bay, Manhattan Beach, Kings Bay, Gerritsen Beach, Kings Highway, East Gravesend, Madison, Homecrest, Plum Beach","2001 Oriental Boulevard, C Cluster,Room C124,Brooklyn, NY 11235"
+16 BROOKLYN,Brooklyn,16,Brownsville and Ocean Hill,"444 Thomas Boyland Street, Rm. 103,Brooklyn, NY 11212"
+17 BROOKLYN,Brooklyn,17,"East Flatbush, Remsen Village, Farragut, Rugby, Erasmus and Ditmas Village","4112 Farragut Road,Brooklyn, New York 11210"
+18 BROOKLYN,Brooklyn,18,"Canarsie, Bergen Beach, Mill Basin, Flatlands, Marine Park, Georgetown, Mill Island","1097 Bergen Avenue,Brooklyn, NY 11234-4841"
+55 BROOKLYN,Brooklyn,55,Prospect Park,
+56 BROOKLYN,Brooklyn,56,Brooklyn Gateway National Recreation Area,
+01 MANHATTAN,Manhattan,01,"Tribeca, Seaport/Civic Center, Financial District, Battery Park City","49-51 Chambers Street, Room 715,New York, NY 10007"
+02 MANHATTAN,Manhattan,02,"Greenwich Village, West Village, NoHo, SoHo, Lower East Side, Chinatown, Little Italy","3 Washington Square Village, #1A,New York, NY 10012"
+03 MANHATTAN,Manhattan,03,"Tompkins Square, East Village, Lower East Side, Chinatown, Two Bridges","59 East 4th Street,New York, NY 10003"
+04 MANHATTAN,Manhattan,04,"Clinton, Chelsea","330 West 42nd Street, Suite 2618,New York, NY 10036"
+05 MANHATTAN,Manhattan,05,Midtown,"450 7th Avenue, Rm. 2109,New York, NY 10123"
+06 MANHATTAN,Manhattan,06,"Stuyvesant Town, Tudor City, Turtle Bay, Peter Cooper Village, Murray Hill, Gramercy Park, Kips Bay, Sutton Place","866 UN Plaza, Suite 308,New York, NY 10017"
+07 MANHATTAN,Manhattan,07,"Manhattan Valley, Upper West Side, Lincoln Square","250 W. 87th Street,New York, NY 10024"
+08 MANHATTAN,Manhattan,08,"Upper East Side, LenoxHill, Yorkville, Roosevelt Island","505 Park Avenue, Suite 620,New York, NY 10022"
+09 MANHATTAN,Manhattan,09,"Hamilton Heights, Manhattanville, Morningside Heights, West Harlem","16-18 Old Broadway,New York, NY 10027"
+10 MANHATTAN,Manhattan,10,Central Harlem,"215 West 125th Street,4th Floor,New York, NY 10027"
+11 MANHATTAN,Manhattan,11,East Harlem,"1664 Park Avenue, Ground Floor,New York, NY 10035"
+12 MANHATTAN,Manhattan,12,Inwood and Washington Heights,"530 West 166th Street, 6th Floor,New York, NY 10032"
+64 MANHATTAN,Manhattan,64,Central Park,
+01 QUEENS,Queens,01,"Astoria, Old Astoria, Long Island City, Queensbridge, Ditmars, Ravenswood, Steinway, Garden Bay, Woodside","45-02 Ditmars Boulevard,LL Suite 125,Astoria, NY 11105"
+02 QUEENS,Queens,02,"Long Island City, Woodside, Sunnyside","43-22 50th Street,Woodside, NY 11377"
+03 QUEENS,Queens,03,"Jackson Heights, East Elmhurst, North Corona, La Guardia Airport","82-11 37th Avenue, Suite 606,Jackson Heights, NY 11372"
+04 QUEENS,Queens,04,"Corona, Corona Heights, Elmhurst, Newtown","46-11 104th Street,Corona, NY 11368"
+05 QUEENS,Queens,05,"Ridgewood, Glendale, Middle Village, Maspeth, Liberty Park","61-23 Myrtle Avenue,Glendale, NY 11385"
+06 QUEENS,Queens,06,Forest Hills and Rego Park,"104-01 Metropolitan Avenue,Forest Hills, NY 11375"
+07 QUEENS,Queens,07,"Flushing, Bay Terrace, College Point, Whitestone, Malba, Beechhurst, Queensboro Hill, Willets Point","133-32 41st Road - Suite 3B,Flushing, NY 11355"
+08 QUEENS,Queens,08,"Fresh Meadows, Cunningham Heights, Hilltop Village, Pomonak Houses, Fresh Meadows, Jamaica Estates, Holliswood, Flushing South, Utopia, Kew Gardens Hills, Briarwood","197-15 Hillside Avenue,Hollis, NY 11423"
+09 QUEENS,Queens,09,"Richmond Hill, Woodhaven, Ozone Park, Kew Gardens","120-55 Queens Boulevard, Rm. 310A,Kew Gardens, NY 11424"
+10 QUEENS,Queens,10,"Howard Beach, Ozone Park, South Ozone Park, Richmond Hill, Tudor Village, Lindenwood","115-01 Lefferts Boulevard,South Ozone Park, NY 11420"
+11 QUEENS,Queens,11,"Bayside, Douglaston, Little Neck, Auburndale, East Flushing, Oakland Gardens, Hollis Hills","46-21 Little Neck Parkway,Little Neck, NY 11362"
+12 QUEENS,Queens,12,"Jamaica, Hollis, St. Albans, Springfield Gardens, Baisley Park, Rochdale Village, South Jamaica","90-28 161st Street,Jamaica, NY 11432"
+13 QUEENS,Queens,13,"Queens Village, Glen Oaks, New Hyde Park, Bellerose, Cambria Heights, Laurelton, Rosedale, Floral Park, Brookville","219-41 Jamaica Avenue,Queens Village, NY 11428"
+14 QUEENS,Queens,14,"Breezy Point, Belle Harbor, Broad Channel, Neponsit, Arverne, Bayswater, Edgemere, Rockaway Park, Rockaway and Far Rockaway","1931 Mott Avenue,Far Rockaway, NY 11691"
+80 QUEENS,Queens,80,La Guardia Airport,
+81 QUEENS,Queens,81,Flushing Meadows-Corona Park,
+82 QUEENS,Queens,82,Forest Park,
+83 QUEENS,Queens,83,JFK International Airport,
+84 QUEENS,Queens,84,Queens Gateway National Recreation Area,
+01 STATEN ISLAND,Staten Island,01,"Arlington, Castleton Corners, Clifton, Concord, Elm Park, Fort Wadsworth, Graniteville, Grymes Hill, Livingston, Mariners Harbor, Meiers Corners, New Brighton, Port Ivory, Port Richmond, Randall Manor, Rosebank, St. George, Shore Acres, Silver Lake, Stapleton, Sunnyside, Tompkinsville, West Brighton, Westerleigh","1 Edgewater Plaza, Room 217,Staten Island, NY 10305"
+02 STATEN ISLAND,Staten Island,02,"Arrochar, Bloomfield, Bulls Heads, Chelsea, Dongan Hills, Egbertville, Emerson Hill, Grant City, Grasmere, High Rock, Lighthouse Hill, Midland Beach, New Dorp, New Springville, Oakwood, Ocean Breeze, Old Town, Richmondtown, South Beach, Todt Hill, Travis","Sea View Hospital,Lou Caravone Community Service Building,460 Brielle Avenue,Staten Island, NY 10314"
+03 STATEN ISLAND,Staten Island,03,"Annadale, Arden Heights, Bay Terrace, Charleston, Eltingville, Great Kills, Greenridge, Huguenot, Pleasant Plains, Prince's Bay, Richmondtown, Richmond Valley, Rossville, Tottenville, Woodrow","655-218 Rossville Avenue,Staten Island, NY 10309"
+95 STATEN ISLAND,Staten Island,95,Staten Island Gateway National Recreation Area,
